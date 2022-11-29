@@ -41,7 +41,7 @@ export default function ProductDetails() {
                                 <TableCell>{product.description}</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell>Tyoe</TableCell>
+                                <TableCell>Type</TableCell>
                                 <TableCell>{product.type}</TableCell>
                             </TableRow>
                             <TableRow>
