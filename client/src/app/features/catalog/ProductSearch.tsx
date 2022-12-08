@@ -1,6 +1,6 @@
 import { debounce, TextField } from "@mui/material";
 import { useState } from "react";
-import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
+import { useAppDispatch, useAppSelector } from "../../store/configureStore";
 import { setProductParams } from "./catalogSlice";
 
 export default function ProductSearch() {

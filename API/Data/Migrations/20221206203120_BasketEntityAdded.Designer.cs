@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace API.Data.Migrations
+namespace API.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20221130184717_BasketEntityAdded")]
+    [Migration("20221206203120_BasketEntityAdded")]
     partial class BasketEntityAdded
     {
         /// <inheritdoc />

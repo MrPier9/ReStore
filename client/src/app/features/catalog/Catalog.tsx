@@ -1,10 +1,10 @@
 import { Grid, Paper } from "@mui/material";
 import { useEffect } from "react";
-import AppPagination from "../../app/components/AppPagination";
-import CheckboxButtons from "../../app/components/CheckboxButtons";
-import RadioButtonGroup from "../../app/components/RadioButtonGroup";
-import LoadingComponent from "../../app/layout/LoadingComponent";
-import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
+import AppPagination from "../../components/AppPagination";
+import CheckboxButtons from "../../components/CheckboxButtons";
+import RadioButtonGroup from "../../components/RadioButtonGroup";
+import LoadingComponent from "../../layout/LoadingComponent";
+import { useAppDispatch, useAppSelector } from "../../store/configureStore";
 import { fetchFilters, fetchProductsAsync, productSelectors, resetProductParams, setProductParams } from "./catalogSlice";
 import ProductList from "./ProductList";
 import ProductSearch from "./ProductSearch";

@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
-import { Product } from "../../app/models/product";
-import { useAppSelector } from "../../app/store/configureStore";
+import { Product } from "../../models/product";
+import { useAppSelector } from "../../store/configureStore";
 import ProductCard from "./ProductCard";
 import ProductCardSkeleton from "./ProductCardSkeleton";
 
