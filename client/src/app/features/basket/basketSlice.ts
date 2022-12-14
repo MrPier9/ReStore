@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, isAnyOf } from "@reduxjs/toolkit";
 import agent from "../../api/agent";
-import { Basket } from "../../models/Basket";
+import { Basket } from "../../models/basket";
 import { getCookie } from "../../util/util";
 
 interface BasketState {
