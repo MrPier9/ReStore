@@ -1,7 +1,4 @@
-using API.Entities;
-using API.Entities.OrderAggregate;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
 {
