@@ -92,6 +92,8 @@ builder.Services.AddScoped<PaymentService>();
 
 builder.Services.AddScoped<ImageService>();
 
+builder.Services.AddScoped<EmailService>();
+
 var app = builder.Build();
 
 app.UseMiddleware<ExceptionMiddleware>();
